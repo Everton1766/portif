@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#A52A2A, #00008B, #48D1CC);
+
+}
+
+header {
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.headers {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 200px;
+
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: aqua;
+
+}
+
+.dev-logo {
+    height: 100px;
+    margin-left: 20px;
+}
+
+.description {
+    display: flex;
+    margin-bottom: 300px;
+    
+}
+
+.my-description {
+    width: 500px;    
+    height: 200px;    
+    flex: 1;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+    color: aqua;
+}
+
+h2 {
+    font-size: 45px;
+    color: antiquewhite;    
+}
+
+.mundo-dev {
+    width: 700px;
+    position: relative;
+    max-width: 100%;
+    margin-right: 60px;
+    
+}
+
+.container {
+    display: flex;
+    margin-bottom: 400px;    
+}
+
+.about-me {
+    width: 300px;    
+    height: 200px;    
+    flex: 1;
+    margin: 100px 50px 50px 50px;
+    
+}
+
+.dev {
+    width: 500px;    
+    position: relative;
+    max-width: 100%;
+    margin-right: 60px;
+    border-radius: 30px;
+    
+}
+
+p {
+    font-size: 35px;
+    color: aqua;
+}
+
+
+
+.projetos {    
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 400px;
+       
+}
+
+.my-projects {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.img-projetc {
+    width: 300px;
+    height: 250px;
+    border-radius: 30px; 
+    margin: 5px;
+}
+
+.tecno {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.technology {    
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.img-logo {
+    width: 300px;
+    height: 250px;
+    border-radius: 30px; 
+    margin: 5px;
+}
+
+.seta-cima {
+    width: 70px;
+    display: flex;
+    position: absolute;
+    
+}
+
+.link-git {
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    color: #800000;
+}
+
+.animation{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.logo :nth-child(2){
+    transition-delay: 400ms;
+}
+
+.logo :nth-child(3){
+    transition-delay: 700ms;
+}
