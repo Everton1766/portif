@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(#A52A2A, #00008B, #48D1CC);
+    background: linear-gradient(#F08080, #DEB887, #48D1CC);
 
 }
 
@@ -173,4 +173,95 @@ p {
 
 .logo :nth-child(3){
     transition-delay: 700ms;
+}
+
+@media screen and (max-width:900px) {
+
+    header {
+        font-size: 15px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px;
+    }
+
+    .headers {
+        position: relative;             
+        display: flex;
+        width: 100%;
+        margin-bottom: 150px;
+    
+    }
+
+    a {
+        margin: 10px;
+        text-decoration: none;
+        color: aqua;
+    
+    }
+
+    .dev-logo {
+        height: 60px;
+        margin-left: 20px;
+        display: none;
+    }
+    
+    .my-description {
+        width: 300px;    
+        height: 150px;    
+        flex: 1;
+        margin-top: 150px;
+        margin-left: 50px;
+        
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: aqua;
+    }
+    h2 {
+        font-size: 20px;
+        color: antiquewhite;    
+    }
+    .mundo-dev {
+        width: 250px;
+        position: relative;
+        max-width: 100%;
+        margin-right: 60px;
+        
+    }
+    .about-me {
+        width: 200px;    
+        height: 100px;    
+        flex: 1;
+        margin: 100px 50px 50px 50px;
+        
+    }
+    p {
+        font-size: 15px;
+        color: aqua;
+    }
+    .dev {
+        width: 200px; 
+        height: auto;   
+        position: relative;
+        max-width: 100%;
+        margin-right: 60px;
+        border-radius: 30px;
+        
+    }
+    .img-projetc {
+        width: 130px;
+        height: 110px;
+        border-radius: 30px; 
+        margin: 5px;
+    }
+    .img-logo {
+        width: 130px;
+        height: 110px;
+        border-radius: 30px; 
+        margin: 5px;
+    }
+
+    
 }
