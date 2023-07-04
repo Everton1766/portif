@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(#F08080, #DEB887, #48D1CC);
+    background: linear-gradient(#191970, #48D1CC);
 
 }
 
@@ -178,8 +178,10 @@ p {
 @media screen and (max-width:900px) {
 
     header {
-        font-size: 15px;
-        position: absolute;
+        font-size: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
         top: 0;
         right: 0;
         margin: 20px;
